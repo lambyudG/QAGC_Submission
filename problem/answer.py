@@ -912,9 +912,8 @@ class RunAlgorithm:
         n_site = 4
         n_qubits = 2 * n_site
         ham = load_operator(
-            file_name=f"{n_qubits}_qubits_H_5",
-            #data_directory="../hamiltonian",
-            data_directory="../hamiltonian/hamiltonian_samples",
+            file_name=f"{n_qubits}_qubits_H",
+            data_directory="../hamiltonian",
             plain_text=False,
         )
         jw_hamiltonian = jordan_wigner(ham)
