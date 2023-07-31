@@ -12,6 +12,3 @@ https://1drv.ms/p/s!AmKF5Bc81V_y71k9BLnVMPTqp1qP?e=zFPQAX
 
 ## Source code: 
 https://github.com/lambyudG/QAGC_Submission/blob/main/problem/answer.py
-
-## Your score (Optional)
-This will be used for reference during score evaluation. The results from less than three calculation are also acceptable
