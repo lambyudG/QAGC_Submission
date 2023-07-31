@@ -1,26 +1,17 @@
----
-name: Final Submission
-about: A template for submitting your Quantum Algorithm Grand Challenge project
-title: "[ENTRY] Your Project Title"
-labels: ''
-assignees: ''
-
----
-
 ## Team name: 
-Your team's name 
+Xyzzy
 
 ## Team members: 
-List up all members' name 
+Yudai Satoh
 
 ## Project Description: 
-A brief description of your project (1-2 paragraphs). 
+  In this project, I tried to reduce the execution time per step because I believe it is important to search for optimal parameters as many times as possible.To achieve this, I used SPSA as an optimizer and reduced shots by stochastically selecting measuring terms of the Hamiltonian. In addition, I implemented ZNE to obtain smaller expected values. However, the value from ZNE has instability. Therefore, I calculated outliers of the costs during optimization and used it to decide the acceptable range of ZNE results. 
 
 ## Presentation:
-A link to the presentation of your team’s hackathon project (e.g., video, jupyter notebook, slideshow, etc.).
+https://1drv.ms/p/s!AmKF5Bc81V_y71k9BLnVMPTqp1qP?e=zFPQAX
 
 ## Source code: 
-A link to the final source code for your team's hackathon project (e.g., a GitHub repo).
+https://github.com/lambyudG/QAGC_Submission/blob/main/problem/answer.py
 
 ## Your score (Optional)
 This will be used for reference during score evaluation. The results from less than three calculation are also acceptable
